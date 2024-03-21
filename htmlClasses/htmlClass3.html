@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: darkslategray;
+            color: white;
+        }
+        li{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Using Div's In HTML
+    <div></div> It is used as a container for other html elements.
+    -->
+    <header>
+        <h1>Company Name</h1>
+        <ul style="display: flex; list-style: none; ">
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <section>
+        <h2>Blog</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde sint exercitationem perferendis quae magni quam deleniti quasi? Sed corrupti dolorum neque nesciunt aut minus amet inventore impedit, totam ab.
+        </p>
+    </section>
+    <section>
+        <h2>About</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde sint exercitationem perferendis quae magni quam deleniti quasi? Sed corrupti dolorum neque nesciunt aut minus amet inventore impedit, totam ab.
+        </p>
+    </section>
+    <div style="background-color: gray; ">
+        <div style="background-color: yellow;">
+            <h2>About US</h2>
+            <p>
+                This a multinational technology company. <span style="background-color: blue;">orem ipsum dolor sit amet </span>Lconsectetur adipisicing elit. Eaque, perferendis.
+            </p>
+        </div>
+        <img src="img/image.png" alt="" width="400px" height="400px">
+    </div>
+    <div style="background-color: aqua;">
+        <h2>Contact US</h2>
+        <p>This a multinational technology company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, perferendis.</p>
+        <img src="img/image.png" alt="" width="400px" height="400px">
+    </div>
+
+    <!--
+        HTML Semantic Elements.
+        A semantic element clearly describes it's meaning to both the browser and the developer.
+        E.g Non-semantic: <div>, <span> - Tells us nothing about the content.
+        E.g Semantic: <header>, <footer>, <form>, <nav>, <section>, <main>, etc - Cleary defines its content.
+    -->
+    <footer>
+        <h1>Company Name</h1>
+        <ul style="display: flex; list-style: none; ">
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </footer>
+</body>
+</html>
